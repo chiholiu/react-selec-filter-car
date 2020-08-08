@@ -1,0 +1,52 @@
+{
+	"name": "zugmeister",
+	"version": "1.0.0",
+	"description": "A test case base project",
+	"main": "src/index.js",
+	"author": "JP Wesselink <jpwesselink@gmail.com>",
+	"license": "ISC",
+	"dependencies": {
+		"@testing-library/jest-dom": "^4.2.4",
+		"@testing-library/react": "^9.4.0",
+		"@testing-library/user-event": "^7.2.1",
+		"eslint": "^6.6.0",
+		"eslint-config-airbnb": "^18.2.0",
+		"eslint-config-prettier": "^6.11.0",
+		"eslint-plugin-import": "^2.22.0",
+		"prop-types": "^15.7.2",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"react-scripts": "^3.3.0",
+		"styled-components": "^5.1.1"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"lint": "eslint .",
+		"lint:fix": "eslint --fix --ext .js,.jsx .",
+		"test": "react-scripts test setupFile ./src/setupTests.js",
+		"eject": "react-scripts eject"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"babel-eslint": "^10.1.0",
+		"enzyme": "^3.11.0",
+		"enzyme-adapter-react-16": "^1.15.2",
+		"eslint-plugin-jest": "^23.20.0",
+		"jest-enzyme": "^7.1.2"
+	}
+}
