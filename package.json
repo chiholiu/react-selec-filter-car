@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"description": "A test case base project",
 	"main": "src/index.js",
-	"author": "JP Wesselink <jpwesselink@gmail.com>",
+	"author": "chiholiu10@gmail.com",
 	"license": "ISC",
 	"dependencies": {
 		"@testing-library/jest-dom": "^4.2.4",
