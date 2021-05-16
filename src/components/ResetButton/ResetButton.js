@@ -2,15 +2,15 @@ import React from 'react';
 import { ResetBtn } from '../../styles/ResetButton';
 import PropTypes from 'prop-types';
 
-export const ResetButton = ({ 
+export const ResetButton = ({
 	enableButton,
 	onClickEvent
 }) => {
 	return (
-		<ResetBtn 
-			type="button" 
-			onClick={ onClickEvent } 
-			disabled={ !enableButton }
+		<ResetBtn
+			type="button"
+			onClick={onClickEvent}
+			disabled={!enableButton}
 		>
 			Reset
 		</ResetBtn>

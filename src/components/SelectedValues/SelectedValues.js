@@ -1,9 +1,9 @@
 import React from 'react';
-import { 
-	HeadingOne, 
-	Paragraph, 
-	ValueContainer, 
-	ValueBlock 
+import {
+	HeadingOne,
+	Paragraph,
+	ValueContainer,
+	ValueBlock
 } from '../../styles/SelectOptions';
 import PropTypes from 'prop-types';
 
@@ -19,7 +19,7 @@ export const SelectedValues = ({
 				<Paragraph data-testid="select-vehicle">{curSelectVehicle}</Paragraph>
 			</ValueBlock>
 
-			<ValueBlock> 
+			<ValueBlock>
 				<HeadingOne>Selected Brand</HeadingOne>
 				<Paragraph data-testid="select-brand">{curSelectBrand}</Paragraph>
 			</ValueBlock>

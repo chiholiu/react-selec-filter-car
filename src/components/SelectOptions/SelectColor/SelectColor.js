@@ -2,9 +2,9 @@ import React from 'react';
 import { SelectComponent } from '../../../styles/SelectOptions';
 import PropTypes from 'prop-types';
 
-export const SelectColor = ({ 
-	color, 
-	uniqueColors, 
+export const SelectColor = ({
+	color,
+	uniqueColors,
 	onChangeEvent
 }) => {
 	return (
